@@ -31,37 +31,36 @@ In order to retrieve an access token users first authorize the application throu
 
 The server is also responsible for supplying a **refresh token** to the client. Spotify access tokens automatically expire after one hour, however a new access token can be retrieved with a refresh token. Getting a new access token with a refresh token still requires the client secret, so this has to be done server side.
 
-Access Token
-
-Refresh Token
-
-Client Secret
-
-Exposable to Client?
-
-Yes
-
-Yes
-
-No
-
-Grants Access To
-
-Spotify Web API
-
-New Access Tokens
-
-Spotify Oauth API
-
-Stored By
-
-Client  
-Server (Temporary)
-
-Client  
-Server (Temporary)
-
-Server
+ <table>
+     <thead>
+         <tr>
+             <th align="left"></th>
+             <th align="left">Access Token</th>
+             <th align="left">Refresh Token</th>
+             <th align="left">Client Secret</th>
+         </tr>
+     </thead>
+     <tbody>
+         <tr>
+             <td align="left">Exposable to Client?</td>
+             <td align="left">Yes</td>
+             <td align="left">Yes</td>
+             <td align="left">No</td>
+         </tr>
+         <tr>
+             <td align="left">Grants Access To</td>
+             <td align="left">Spotify Web API</td>
+             <td align="left">New Access Tokens</td>
+             <td align="left">Spotify Oauth API</td>
+         </tr>
+         <tr>
+             <td align="left">Stored By</td>
+             <td align="left">Client<br>Server (Temporary)</td>
+             <td align="left">Client<br> Server (Temporary)</td>
+             <td align="left">Server</td>
+         </tr>
+     </tbody>
+</table>
 
 **Client**
 ----------
