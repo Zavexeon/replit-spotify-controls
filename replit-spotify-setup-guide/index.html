@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Replit Spotify Controls Guide</title>
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 </head>
-
 <body>
     <h1 id="replit-spotify-controls"><strong>Replit Spotify Controls</strong></h1>
     <h3 id="built-in-media-controls-for-your-spotify-right-in-the-editor">Built-in Media Controls for your Spotify,
@@ -39,7 +37,8 @@
     <p>The auth server handles authorization with Spotify Oauth and is responsible for retrieving spotify <strong>access
             tokens</strong> for the client. In order the Spotify API, each user needs their own personal access token
         which is linked to their account specifically. This is not to be confused with the <strong>client
-            secret</strong>. The client secret is the token used to allow the server access the API to retrieve access
+            secret</strong>. The client secret is the token used to allow the server access to Spotify API to retrieve
+        access
         tokens on the user&#39;s behalf. The important difference is that access tokens can be exposed to the client,
         while the client secret cannot, hence the requirement of a server.</p>
     <p>In order to retrieve an access token users first authorize the application through a Spotify login page. Once the
@@ -123,7 +122,7 @@
         client. In order to do so, you will need to do some minor prep work.</p>
     <ol>
         <li>Fork the <a href="https://replit.com/@Zavexeon/replit-spotify-controls" target="_blank">Client</a>.</li>
-        <li>Fork the server <a href="https://replit.com/@Zavexeon/rs-auth-server-template" target="_blank">Server</a>.
+        <li>Fork the <a href="https://replit.com/@Zavexeon/rs-auth-server" target="_blank">Server</a>.
         </li>
         <li>Create an application in the <a href="https://developer.spotify.com/" target="_blank">Spotify Developer
                 Dashboard</a>.</li>
@@ -198,6 +197,4 @@
     <h1 id="screenshots">Screenshots</h1>
     <p><img src="image.png" alt="image"> <img src="image_2.png" alt="image"> <img src="image_4.png" alt="image"></p>
 </body>
-<!-- md to html with https://codebeautify.org/markdown-to-html -->
-
 </html>
