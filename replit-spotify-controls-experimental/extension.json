@@ -1,0 +1,10 @@
+{
+  "name": "Replit Spotify Controls",
+  "description": "Spotify media controls for Replit.",
+  "version": "0",
+  "tags": ["media", "music"],
+  "supportEmail": "zavexeon@pm.me",
+  "icon": "/images/logo.png",
+  "website": "https://zavexeon.github.io",
+  "longDescription": "Spotify media controls for Replit. Uses Spotify OAuth to give the extension access to media playback."
+}
