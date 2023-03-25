@@ -1,9 +1,0 @@
-{
-"name": "Replit Spotify Controls Setup Guide",
-  "description": "Spotify media controls for Replit, personal setup guide.",
-  "version": "0",
-  "tags": ["media", "music"],
-  "supportEmail": "zavexeon@pm.me",
-  "website": "https://zavexeon.github.io",
-  "longDescription": "Guide for setting up your own auth server and client to host your own Spotify media controls extension."
-}
